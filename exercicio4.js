@@ -5,4 +5,4 @@ let celsius = 25; // temperatura em celcius
 let fahrenheit= (celsius * 9/5)+32;
 
 //exibe o resultado no console 
-console.log(celsius+ "c e equivalente a" + fahrenheit+ " f");
+console.log(celsius+ "ºc e equivalente a" + fahrenheit+ " ºf");
