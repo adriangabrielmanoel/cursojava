@@ -16,7 +16,7 @@ return numero % 2 !== 0;
   }
 // Pergunta os dois numeros e faz as verificacoes
  rl.question("Digite o primeiro numero: "), (input1) => { const num1 = parseInt(input1);}
- rl.question("Digite o segundo numero: ", (input2) => {
+ rl.question("Digite o segundo numero: "), (input2) => {
 
   const num2 = parseInt(input2);
   
@@ -26,7 +26,7 @@ return numero % 2 !== 0;
   
   let primeiroPar = ehPar(num1);
   
-  let segundo Impar ehImpar (num2);
+  let segundoImpar= ehImpar (num2);
   
   // Exibe os resultados das verificacoes
   
@@ -34,14 +34,13 @@ return numero % 2 !== 0;
   
   console.log("O primeiro iuero e par?", primeiroPar);
   
-  console.log("O segundo numero e impar?", segundo Impar);
+  console.log("O segundo numero e impar?", segundoImpar);
   
   // Operadores logicos
   
-  console.log("O primeiro numero e maior que o segundo e e par?", primeiroMaior && primeiroPar); console.log("O primeiro ou o segundo número é par?", primeiroPar || ehPar (num2));
+  console.log("O primeiro numero e maior que o segundo e e par?", primeiroMaior && primeiroPar); console.log("O primeiro ou o segundo numero e par?", primeiroPar || ehPar (num2));
   
   rl.close();
   
-  });
+  };
   
-  });
